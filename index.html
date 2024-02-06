@@ -306,6 +306,44 @@
         </div>
     </div>
 
+    <!-- ================================================== ABOUT SECTION ======================================================= -->
+    <div class="about" id="About">
+        <h1>About</h1>
+        <div class="about_main">
+            <div class="about_image">
+                <div class="about_small_image">
+                    <img src="./Pics/About_Img 1.jpeg" onclick="functio(this)">
+                    <img src="./Pics/About_Img 2.jpg" onclick="functio(this)">
+                    <img src="./Pics/About_Img 3.jpeg" onclick="functio(this)">
+                    <img src="./Pics/About_Img 5.jpeg" onclick="functio(this)">
+                    <img src="./Pics/About_Img 4.jpg" onclick="functio(this)">
+                </div>
+
+                <div class="image_container">
+                    <img src="./Pics/About_Img 1.jpeg" id="imagebox">
+                </div>
+            </div>
+
+            <div class="about_text">
+                <p>
+                    The ultra-plush collar and Air cushioning keep it comfortable no matter where you go.
+                    Velvety leather on the upper adds a premium touch that's easy to style.
+                    All-over perforations keep it lightweight, airy and comfortable.
+                    Originally designed for performance hoops, Nike Air cushioning delivers comfort.
+                </p>
+            </div>
+        </div>
+
+        <a href="#" class="about_btn">Shop Now</a>
+
+        <script>
+            function functio(small) {
+                var full = document.getElementById("imagebox")
+                full.src = small.src
+            }
+        </script>
+    </div>
+
     </section>
 </body>
 
